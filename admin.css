@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h3 {
+  color: #fff;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  font-weight: 600;
+}
+.body {
+  border-radius: 6px;
+  height: 90vh;
+  width: 95%;
+  background: url(img/bkg.jpg) no-repeat;
+  margin-left: 25px;
+  margin-right: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+.download img {
+  margin-bottom: 25px;
+  border-radius: 6px;
+  height: 140px;
+}
+.register img {
+  margin-bottom: 25px;
+  border-radius: 6px;
+  height: 140px;
+}
+.go-back img {
+  /* margin-bottom: 25px; */
+  border-radius: 6px;
+  height: 140px;
+}
+#us {
+  height: 25em;
+}
+.user {
+  height: 500px;
+  width: 950px;
+  background: #fff;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1350px) {
+  .download img {
+    height: 140px;
+    margin-right: 30px;
+  }
+  .register img {
+    height: 140px;
+    margin-right: 30px;
+  }
+  .go-back img {
+    height: 140px;
+    /* margin-right: 30px; */
+  }
+  #us {
+    height: 10em;
+  }
+  .user {
+    height: 550px;
+    width: 900px;
+    background: #fff;
+    margin-bottom: 30px;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 1100px) {
+  .download img {
+    height: 140px;
+  }
+  .register img {
+    height: 140px;
+  }
+  .go-back img {
+    height: 140px;
+  }
+
+  .user {
+    height: 450px;
+    width: 900px;
+    background: #fff;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 768px) {
+  h3 {
+    margin: 10px;
+  }
+  .download img {
+    height: 100px;
+    margin-right: 30px;
+    margin-bottom: 0px;
+  }
+  .register img {
+    height: 100px;
+    margin-right: 30px;
+    margin-bottom: 0px;
+  }
+  .go-back img {
+    height: 100px;
+    margin-bottom: 0px;
+  }
+
+  .user {
+    height: 320px;
+    width: 750px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .download img {
+    height: 90px;
+    margin-right: 30px;
+    margin-bottom: 0px;
+  }
+  .register img {
+    height: 90px;
+    margin-right: 30px;
+    margin-bottom: 0px;
+  }
+  .go-back img {
+    height: 90px;
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 425px) {
+  .download img {
+    height: 80px;
+    margin-right: 30px;
+    margin-bottom: 0px;
+  }
+  .register img {
+    height: 80px;
+    margin-right: 30px;
+    margin-bottom: 0px;
+  }
+  .go-back img {
+    height: 80px;
+    margin-bottom: 0px;
+  }
+  .user {
+    height: 300px;
+    width: 800px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 375px) {
+    .user {
+        height: 320px;
+        width: 750px;
+        margin-bottom: 20px;
+      }
+    .download img {
+      height: 70px;
+      margin-right: 30px;
+    }
+    .register img {
+      height: 70px;
+      margin-right: 30px;
+    }
+    .go-back img {
+      height: 70px;
+    }
+  }
